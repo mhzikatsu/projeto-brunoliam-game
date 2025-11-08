@@ -33,12 +33,9 @@ box-sizing: border-box;
      background-position: top center;
     background-size: cover;
  /*valor de repeticao do fundo=,valor de posicionamento/valor de cobrir=cover!*/
-     color-var(--text-color);
+     color: var(--text-color);
 }
-#favicon{
-   
-border: 50%;
-}
+
 body{
    background-image: url(./assets/gifsaku.gif);
    background-attachment: fixed;
