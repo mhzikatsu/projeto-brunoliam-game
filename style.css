@@ -56,12 +56,11 @@ body * {
     font-size: 20px;
 }
 #box-1{ 
-    width: 360px;
-    margin: 56px auto 0px auto;
-
-     
-
-
+    width: 100%;
+    max-width: 580px;
+    margin: 58px auto 0px;
+    padding: 24px;
+   
 }
 
 #box-2 {
@@ -78,7 +77,7 @@ body * {
 
 }
 
-#box-1 p{
+#box-1 {
     font-weight: 500; font-weight: 24px; 
     line-height: 24px;
     margin-top: 24px;
@@ -87,9 +86,10 @@ body * {
 
 }
 #switch{
+
     position: relative;
    width: 32px;
-   margin-left: 150px;
+   margin-left: 235px;
    margin-right: -40px;
 
 }   
@@ -122,6 +122,7 @@ body * {
     transition: all 0.3s ease;
 
 }
+#play {background-color: transparent;}
 
 #moon { display: inline;}
 #sun {display: none;}
@@ -139,10 +140,13 @@ body * {
 
 
 #clouds {
-   animation: moveClouds 60s linear infinite;
+
     margin: 0 auto;
     width: 100px;
-    transition: all 0.3s ease  ;
+    @keyframes cloudsMove {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
 
 }
 
@@ -226,6 +230,7 @@ ul li a:hover {
 }
 
 #social-links{
+
     display: flex;
     justify-content: center;
     
