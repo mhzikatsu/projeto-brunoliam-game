@@ -9,7 +9,7 @@ box-sizing: border-box;
     --text-color: rgb(255, 255, 255);
     --stroke-color : rgb(0, 0, 0);
     --surface-color: rgb(0, 0, 0);
-    --surface-color-hover: rgb(0, 0, 0);
+    --surface-color-hover: rgb(255, 255, 255);
     --hightlight-color: rgb(0, 0, 0);
     --switch-bg: url(./assets/moon.svg);
 }
@@ -23,7 +23,7 @@ box-sizing: border-box;
     --text-color: rgb(0, 0, 0);
     --stroke-color : rgb(255, 255, 255) 0.5;
     --surface-color: rgb(255, 255, 255);
-    --surface-color-hover: rgb(255, 255, 255);
+    --surface-color-hover: rgb(0, 0, 0);
     --hightlight-color: rgb(255, 255, 255);
     --switch-bg: url(./assets/sun.svg);
 }
@@ -214,13 +214,13 @@ ul li a{
     font-weight: 500;
 
     transition: background  0.3s;
-    border: 1.5px solid rgb(255, 255, 255);
+    border: 1.5px solid var(--surface-color-hover);
 }
 
 
 ul li a:hover {
     background: var(--surface-color, 0.5);
-    border: 1.5px solid rgb(255, 255, 255);
+    border: 1.5px solid var(--surface-color-hover);
     color: var(--text-color)
 
 }
@@ -248,7 +248,7 @@ ul li a:hover {
     
     transition: background 0.2s;
     border-radius: 50%;
-    border: 1.5px solid rgb(255, 255, 255);
+    border: 1.5px solid var(--surface-color-hover);
 
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(04px);
@@ -257,8 +257,8 @@ ul li a:hover {
 }
 
 #social-links a:hover{
-    border: 2px solid rgba(0, 0, 0, 0.8);
-    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid var(--surface-color-hover);
+    background-color:var(--surface-color-hover);
     color: var(--text-color);
     background: var(--hightlight-color);
 }
