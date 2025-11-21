@@ -33,20 +33,20 @@ box-sizing: border-box;
  
   body .light {
      background-image: var(--bg-url);
-     background-attachment: flex;
+     background-size: cover;
+     background-attachment: fixed;
      background-repeat: no-repeat;
      background-position: top center;
-    background-size: cover;
  /*valor de repeticao do fundo=,valor de posicionamento/valor de cobrir=cover!*/
      color: var(--text-color);
 }
 
 body{
    background-image: var(--bg-url);
-   background-attachment: flex;
+   background-size: cover;
+   background-attachment: fixed;
    background-repeat: no-repeat;
   background-position: top center;
-  background-size: cover;
  /*valor de repeticao do fundo=,valor de posicionamento/valor de cobrir=cover!*/
 color: var(--text-color);
 }
@@ -150,7 +150,6 @@ body * {
   animation: cloudsMove 10s linear infinite;
 }
 
-kil
 
 .light  #switch button{
     right: 0;
