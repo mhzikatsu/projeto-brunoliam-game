@@ -140,14 +140,14 @@ body * {
 
 
 @keyframes cloudsMove {
-  from { transform: translateX(0); }
-  to { transform: translateX(-100%); }
+  0% { transform: translateX(1000px); }
+  100% { transform: translateX(calc(-50vw + -100px)); }
 }
 
 #clouds {
   margin: auto;
   width: 100px;
-  animation: cloudsMove 10s linear infinite;
+  animation: cloudsMove 30s linear infinite;
 }
 
 
