@@ -378,26 +378,3 @@ footer{
   font-family: "Pixelify Sans", sans-serif !important;
 }
 
-
-/*  Ajuste do fundo especificamente para CELULAR */
-@media (max-width: 600px) {
-  body {
-    background-position: center;
-    background-size: contain; /* impede de cortar a imagem */
-    background-repeat: no-repeat;
-    background-color: #000; /* evita espaço branco atrás */
-  }
-
-  #box-1 {
-    margin-top: 20px;
-    padding: 16px;
-  }
-
-  #box-2 img {
-    width: 90px;
-  }
-
-  ul li a {
-    padding: 14px;
-  }
-}
