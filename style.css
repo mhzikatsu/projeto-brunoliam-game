@@ -75,6 +75,17 @@ body * {
     font-size: 20px;
 }
 
+/* CORRIGE o BACK NO CELULAR */
+@media (max-width: 768px) {
+  body, body.light {
+      background-attachment: scroll; /* impede bug no mobile */
+      background-size: cover;        /* mantém proporcional ao celular */
+      background-position: center;   /* centraliza certinho */
+  }
+}
+
+
+
 #box-1{ 
     /*
 em cada caixa uma bordar, e tudo que for posta dentro dessa caixa ira aumentando com ela.nunca a passando.
