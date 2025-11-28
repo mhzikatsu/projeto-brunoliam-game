@@ -41,12 +41,12 @@ box-sizing: border-box;
 /*a ultima sempre sera a priorizada  no css.*/
 
  
-  body .light {
+  body.light {
     /*
 body { background: black; - para colocar  uma cor de fundo, sempre junto de uma propriedade :red; ou  especifica no caso.
 */
      background-image: var(--bg-url);
-     background-size: top cover;
+     background-size: cover;
      background-attachment: fixed;
      background-repeat: no-repeat;
      background-position: center;
@@ -61,7 +61,7 @@ text-left: pra deixar full esquerda
 */
 body{
      background-image: var(--bg-url);
-     background-size:top cover;
+     background-size: cover;
      background-attachment: fixed;
      background-repeat: no-repeat;
     background-position: center;
