@@ -47,7 +47,7 @@ body { background: black; - para colocar  uma cor de fundo, sempre junto de uma 
 */
      background-image: var(--bg-url);
      background-size: cover;
-     background-attachment: fixed;
+     background-attachment: scroll;
      background-repeat: no-repeat;
      background-position: center;
  /*valor de repeticao do fundo=,valor de posicionamento/valor de cobrir=cover!*/
@@ -62,7 +62,7 @@ text-left: pra deixar full esquerda
 body{
      background-image: var(--bg-url);
      background-size: cover;
-     background-attachment: fixed;
+     background-attachment: scroll;
      background-repeat: no-repeat;
     background-position: center;
  /*valor de repeticao do fundo=,valor de posicionamento/valor de cobrir=cover!*/
